@@ -1,0 +1,4 @@
+Average Waiting Time: 2979.72
+Maximum Size of Ready Queue: 542
+Average Response Time: 2979.72
+Average Turnaround Time: 2990.46

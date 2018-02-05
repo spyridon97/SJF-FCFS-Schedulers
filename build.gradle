@@ -1,0 +1,27 @@
+// New, incubating gradle plugin declarations
+plugins {
+  id 'java'
+  id 'eclipse'
+  id 'application'
+}
+
+jar {
+    baseName = 'opsys'
+    version =  '0.0.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    testCompile "junit:junit:+"
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.3.1'
+}
